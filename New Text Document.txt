@@ -1,0 +1,8 @@
+regex:/^[A-Za-z0-9-?-?-pL\s\-]+$/u
+$input = $request->all();
+        // chek input password not empty
+        if (!empty($input['password'])) {
+            $input['password'] = Hash::make($input['password']);
+        } else {
+            $input = Arr::except($input, array('password'));
+        }

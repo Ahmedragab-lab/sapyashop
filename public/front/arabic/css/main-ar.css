@@ -1,0 +1,36 @@
+/* ملف خاص بتعدل الفرونت الصفحه الرئيسيه وشكرا لكم */
+/* loader */
+/* .pageloader {
+    transition: transform .1s ease-out,-webkit-transform .1s ease-out ;
+}
+
+.pageloader::after {
+    animation: loader-figure .15s infinite cubic-bezier(.215,.61,.355,1);
+}
+.logo-text{
+    color: #cf5029;
+} */
+/* end loader */
+/* frame video */
+.mfp-lightbox{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    left: 20px;
+    top: -215px;
+}
+/* end frame video */
+/* end frame video */
+body.header-transparent header {
+    background-color: #cf5029;
+}
+.page-title.services {
+    background: #1d1c1c url(../images/page-title/services.png) no-repeat top center;
+    background-size: cover;
+}
+
+a:hover{
+    background-color: #4b505d;
+    border-radius: 20px;
+}
